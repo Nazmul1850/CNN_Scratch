@@ -9,6 +9,7 @@ from testmodel import TestNet
 import matplotlib.pyplot as plt
 from evaluation_metrices import *
 import sklearn.metrics as metrics
+import kagglehub
 
 from env import *
 
@@ -22,6 +23,13 @@ def main():
     # model = TestNet(LEARNING_RATE, INITIALIZER, NUM_CLASSES)
 
     # Load data
+    # path = kagglehub.dataset_download("BengaliAI/numta")
+    # print("Path to dataset files:", path)
+
+    # # use pandas to read csv file
+    # df_a = pd.read_csv(path + 'training-a.csv')
+    # df_b = pd.read_csv(path + 'training-b.csv')
+    # df_c = pd.read_csv(path + 'training-c.csv')
     
     # use pandas to read csv file
     df_a = pd.read_csv('./NumtaDB/training-a.csv')

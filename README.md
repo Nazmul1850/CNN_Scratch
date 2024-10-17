@@ -5,7 +5,14 @@ This is a simple implementation of a convolutional neural network from scratch u
 ## Installation
 1. Clone the repository
 2. Install the requirements
-3. download the dataset from [here](https://www.kaggle.com/c/numta/data) and extract it in the root directory of the project
+3. download the dataset from [here](https://www.kaggle.com/c/numta/data) and extract it in the root directory of the project or add kaggle API 
+```import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("BengaliAI/numta")
+
+print("Path to dataset files:", path)
+```
 
 ## Usage
 1. Training the model

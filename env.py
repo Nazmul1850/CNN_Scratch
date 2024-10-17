@@ -13,9 +13,9 @@ TEST_SET_SECTION = 1
 # MODEL_FILENAME = 'alexnet.pickle'
 MODEL_FILENAME = 'lenet.pickle'
 # MODEL_FILENAME = 'testnet.pickle'
-# MODEL_FILENAME = '1705100_model.pickle'
+# MODEL_FILENAME = '1705115_model.pickle'
 
 
 # for testing 
-PREDICTION_FILENAME = '1705100_prediction.csv'
+PREDICTION_FILENAME = '1705115_prediction.csv'
 TEST_SET_CSV_PATH = './NumtaDB/training-d.csv'
